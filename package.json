@@ -20,7 +20,7 @@
     "@vercel/connect": "0.4.2",
     "ai": "^7.0.37",
     "eve": "^0.27.6",
-    "zod": "4.4.3"
+    "zod": "4.6.6"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.3",

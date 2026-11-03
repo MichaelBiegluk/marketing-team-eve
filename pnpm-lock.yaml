@@ -13,16 +13,16 @@ importers:
         version: 2.6.1
       '@vercel/connect':
         specifier: 0.4.2
-        version: 0.4.2(ai@7.0.37(zod@4.4.3))(eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.4.3))(lru-cache@11.5.2))
+        version: 0.4.2(ai@7.0.37(zod@4.6.6))(eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.6.6))(lru-cache@11.5.2))
       ai:
         specifier: ^7.0.37
-        version: 7.0.37(zod@4.4.3)
+        version: 7.0.37(zod@4.6.6)
       eve:
         specifier: ^0.27.6
-        version: 0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.4.3))(lru-cache@11.5.2)
+        version: 0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.6.6))(lru-cache@11.5.2)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.5.3
@@ -1148,25 +1148,25 @@ packages:
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.28(zod@4.4.3)':
+  '@ai-sdk/gateway@4.0.28(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.6.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.4.3
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@5.0.12(zod@4.4.3)':
+  '@ai-sdk/provider-utils@5.0.12(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.3
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.0
-      zod: 4.4.3
+      zod: 4.6.6
 
   '@ai-sdk/provider@4.0.3':
     dependencies:
@@ -1487,12 +1487,12 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  '@vercel/connect@0.4.2(ai@7.0.37(zod@4.4.3))(eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.4.3))(lru-cache@11.5.2))':
+  '@vercel/connect@0.4.2(ai@7.0.37(zod@4.6.6))(eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.6.6))(lru-cache@11.5.2))':
     dependencies:
       '@vercel/oidc': 3.8.0
     optionalDependencies:
-      ai: 7.0.37(zod@4.4.3)
-      eve: 0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.4.3))(lru-cache@11.5.2)
+      ai: 7.0.37(zod@4.6.6)
+      eve: 0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.6.6))(lru-cache@11.5.2)
 
   '@vercel/oidc@3.2.0': {}
 
@@ -1510,12 +1510,12 @@ snapshots:
 
   acorn@8.17.0: {}
 
-  ai@7.0.37(zod@4.4.3):
+  ai@7.0.37(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 4.0.28(zod@4.4.3)
+      '@ai-sdk/gateway': 4.0.28(zod@4.6.6)
       '@ai-sdk/provider': 4.0.3
-      '@ai-sdk/provider-utils': 5.0.12(zod@4.4.3)
-      zod: 4.4.3
+      '@ai-sdk/provider-utils': 5.0.12(zod@4.6.6)
+      zod: 4.6.6
 
   ajv@6.15.0:
     dependencies:
@@ -1633,9 +1633,9 @@ snapshots:
 
   esutils@2.0.3: {}
 
-  eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.4.3))(lru-cache@11.5.2):
+  eve@0.27.6(@vercel/blob@2.6.1)(ai@7.0.37(zod@4.6.6))(lru-cache@11.5.2):
     dependencies:
-      ai: 7.0.37(zod@4.4.3)
+      ai: 7.0.37(zod@4.6.6)
       nitro: 3.0.260610-beta(@vercel/blob@2.6.1)(lru-cache@11.5.2)
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -2016,7 +2016,7 @@ snapshots:
       jsonc-parser: 3.3.1
       nypm: 0.6.8
       yaml: 2.9.0
-      zod: 4.4.3
+      zod: 4.6.6
     transitivePeerDependencies:
       - eslint
       - supports-color
@@ -2062,4 +2062,4 @@ snapshots:
 
   zod@4.1.11: {}
 
-  zod@4.4.3: {}
+  zod@4.6.6: {}
